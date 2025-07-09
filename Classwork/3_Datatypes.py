@@ -1,0 +1,14 @@
+a=10
+b=-10
+c=0
+print(type(a))
+print(type(b))
+print(type(c))
+e=3.14
+print(type(e))
+c="arjun"
+print(type(c))
+s={}
+print(type(s))
+s=set()
+print(type(s))
