@@ -1,0 +1,77 @@
+# Task 1: Twitter Login and Profile Information
+
+# Integer – User ID
+user_id = 1001
+
+# String – Username and Email
+username = "elonmusk"
+email = "elon@x.com"
+
+# Float – Account reputation score
+reputation_score = 98.75
+
+# List – List of interests
+interests = ["Tech", "Space", "Finance", "Memes"]
+
+# Tuple – Followers and Following count
+followers_data = (180000000, 200)
+
+# Set – Verified badges (unique labels)
+badges = {"Blue Tick", "Top Influencer", "Business Account"}
+
+# Dictionary – Login credentials (mocked)
+login_info = {
+    "username": username,
+    "email": email,
+    "password": ""
+}
+
+# Task 2: Display Info Using Formatting Methods
+
+# 1. Comma Separation (sep=',')
+print("1. Using Comma Separation (sep=','):")
+print("User ID, Username, Email:", user_id, username, email, sep=',')
+
+# 2. Percentage Formatting (% operator)
+print("\n2. Using Percentage Formatting (% operator):")
+print("Reputation Score: %.2f%%" % reputation_score)
+
+# 3. f-strings
+print("\n3. Using f-strings:")
+print(f"Username: @{username}")
+print(f"Email: {email}")
+print(f"Followers: {followers_data[0]} | Following: {followers_data[1]}")
+print(f"Badges: {', '.join(badges)}")
+
+# 4. .format() method
+print("\n4. Using .format() method:")
+print("Login Credentials - Username: {}, Email: {}, Password: {}".format(
+    login_info["username"],
+    login_info["email"],
+    login_info["password"]
+))
+
+# Displaying additional info (optional)
+print("\nAdditional Info:")
+print(f"Interests: {', '.join(interests)}")
+📤 Output Example
+yaml
+Copy
+Edit
+1. Using Comma Separation (sep=','):
+User ID, Username, Email:1001,elonmusk,elon@x.com
+
+2. Using Percentage Formatting (% operator):
+Reputation Score: 98.75%
+
+3. Using f-strings:
+Username: @elonmusk
+Email: elon@x.com
+Followers: 180000000 | Following: 200
+Badges: Blue Tick, Business Account, Top Influencer
+
+4. Using .format() method:
+Login Credentials - Username: elonmusk, Email: elon@x.com, Password: ********
+
+Additional Info:
+Interests: Tech, Space, Finance, Memes
