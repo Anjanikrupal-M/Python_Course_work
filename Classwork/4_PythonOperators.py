@@ -101,5 +101,3 @@ print("left shift operator by   1 bit 4<<1: ",2<<1)#Multiply by 2
 print("left shift operator by   2 bit 4<<2: ",4<<2)
 print("right shift operator by  1 bit 4>>1: ",4>>1)# Divide by 2
 print("right shift operator by  2 bit 4>>2: ",4>>2)
-
-

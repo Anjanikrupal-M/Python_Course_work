@@ -44,13 +44,13 @@ n = '1.23'.isdigit()
 False
 n = 'arjun123'.isalnum()  #checks numerics and alphabets and no other special chars
 'arjun@123'.isalnum()
-False
+#False
 'arjun'.islower()
-True
+#True
 'Arjun'.islower()
-False
+#False
 'ARJUN'.isupper()
-True
+#True
 
 s = ' '.isspace()  #checks whether having space
-True
+#True

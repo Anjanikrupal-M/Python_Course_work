@@ -32,17 +32,17 @@ print(a)         #[10, 15, 20, 100, 40, 50, 60, 70, 80, 90]
 print(a.remove(20))
 print(a)         #[10, 15, 100, 40, 50, 60, 70, 80, 90]
 a.pop()
-print(a)
+print(a)         #[10, 15, 100, 40, 50, 60, 70, 80]
 a.pop(2)
-print(a)
+print(a)         #[10, 15, 40, 50, 60, 70, 80]
 del a[1]
-print(a)
+print(a)         #[10, 40, 50, 60, 70, 80]
 
 
 a=[70,30,20,100]
-print()
+print()          #[20, 30, 70, 100]
 a.sort()
-print(a)
+print(a)         #[100, 70, 30, 20]
 a=[70,30,20,100]
 a.sort(reverse=True)
 print(a)
@@ -71,7 +71,7 @@ print("Maximum",max([10,20,30,50]))
 print("Minimum",min([10,20,30,50]))
 print("Sum",sum([10,20,30,50]))
 print(len(a))
-roll_nos=["Sanjay","Raghava","Mohitananda"]
+roll_nos=["arjun","sanjay","aravind"]
 for roll_no in roll_nos:
     print(roll_no)
 for index,roll_nos in enumerate(roll_nos):
@@ -80,7 +80,7 @@ a=[{},[],(),None,"string"]
 print(a)
 print(any(a))
 print(all(a))
-a=["Sanjay","String","Python"]
+a=["arjun","String","Python"]
 print(a)
 print(any(a))
 print(all(a))
@@ -146,7 +146,7 @@ print("Maximum",max([10,20,30,50]))
 print("Minimum",min([10,20,30,50]))
 print("Sum",sum([10,20,30,50]))
 print(len(a))
-roll_nos=["Sanjay","Raghava","Mohitananda"]
+roll_nos=["arjun","sanjay","ajay"]
 for roll_no in roll_nos:
     print(roll_no)
 for index,roll_nos in enumerate(roll_nos):
@@ -155,7 +155,7 @@ a=[{},[],(),None,"string"]
 print(a)
 print(any(a))
 print(all(a))
-a=["Sanjay","String","Python"]
+a=["arjun","String","Python"]
 print(a)
 print(any(a))
 print(all(a))
