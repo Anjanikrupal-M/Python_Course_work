@@ -217,3 +217,543 @@ while True:
     else:
         print("Invalid option. Try again.")
 
+
+# Enter the number of messages: 6
+# Alice: Good morning!
+# Bob: Morning Alice!
+# Charlie: Morning everyone!
+# Alice: Hope you all have a great day.
+# Bob: You too, Alice!
+# Charlie: Let's plan something fun this weekend.
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 1
+# Total messages: 6
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 2
+# Unique users in the chat: {'Bob', 'Charlie', 'Alice'}
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 3
+# Total words in the chat: 22
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 4
+# Average words per message: 3.67
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 5
+# Longest message: "Charlie: Let's plan something fun this weekend."
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 6
+# Most active user: Alice (2 messages)
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 7
+# Input: charlie 
+# Messages sent by charlie: 0
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 8
+# Input: alice 
+# No messages found for alice.
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 9
+# Input: bob
+# No messages found for bob.
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 10
+# Input: alice
+# User 'alice' not found in the chat.
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 11
+# Common repeated words: {'you', 'morning', 'alice'}
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 12
+# Invalid option. Try again.
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 13
+# User with longest average message: Alice (avg 4.5 words)
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 14
+# Input: bob
+# Messages mentioning 'bob': 0
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 15
+# Unique messages count: 6
+# Alice: Good morning!
+# Alice: Hope you all have a great day.
+# Bob: Morning Alice!
+# Bob: You too, Alice!
+# Charlie: Let's plan something fun this weekend.
+# Charlie: Morning everyone!
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 15
+# Unique messages count: 6
+# Alice: Good morning!
+# Alice: Hope you all have a great day.
+# Bob: Morning Alice!
+# Bob: You too, Alice!
+# Charlie: Let's plan something fun this weekend.
+# Charlie: Morning everyone!
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 16
+# Messages sorted A-Z:
+# Alice: Good morning!
+# Alice: Hope you all have a great day.
+# Bob: Morning Alice!
+# Bob: You too, Alice!
+# Charlie: Let's plan something fun this weekend.
+# Charlie: Morning everyone!
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 17
+# Questions in chat:
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 18
+# Enter first user: alice
+# Enter second user: bob
+# Reply ratio from bob to alice: 0 replies
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 19
+# Deleted messages found: 0
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 19
+# Deleted messages found: 0
+
+# Choose an option:
+# 1. Count total messages
+# 2. Identify unique users
+# 3. Count total words
+# 4. Calculate average words per message
+# 5. Find longest message
+# 6. Most active user
+# 7. Message count for a user
+# 8. Most frequent word by user
+# 9. First and last message by user
+# 10. Check user presence
+# 11. Common repeated words
+# 13. User with longest average message
+# 14. Count messages mentioning user
+# 15. Remove duplicate messages
+# 16. Sort messages A-Z
+# 17. Extract all questions
+# 18. Reply ratio between two users
+# 19. Check for deleted messages
+# 0. Exit
+# Enter your choice: 0
+# Exiting. Goodbye!
+
