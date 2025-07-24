@@ -164,13 +164,13 @@ while True:
     print("9. First and last message by user")
     print("10. Check user presence")
     print("11. Common repeated words")
-    print("13. User with longest average message")
-    print("14. Count messages mentioning user")
-    print("15. Remove duplicate messages")
-    print("16. Sort messages A-Z")
-    print("17. Extract all questions")
-    print("18. Reply ratio between two users")
-    print("19. Check for deleted messages")
+    print("12. User with longest average message")
+    print("13. Count messages mentioning user")
+    print("14. Remove duplicate messages")
+    print("15. Sort messages A-Z")
+    print("16. Extract all questions")
+    print("17. Reply ratio between two users")
+    print("18. Check for deleted messages")
     print("0. Exit")
 
     choice = input("Enter your choice: ").strip()
@@ -197,19 +197,19 @@ while True:
         check_user_presence(user_msgs)
     elif choice == '11':
         common_repeated_words(messages)
-    elif choice == '13':
+    elif choice == '12':
         user_with_longest_avg_msg(user_msgs)
-    elif choice == '14':
+    elif choice == '13':
         messages_mentioning_user(messages)
-    elif choice == '15':
+    elif choice == '14':
         remove_duplicate_messages(messages)
-    elif choice == '16':
+    elif choice == '15':
         sort_messages(messages)
-    elif choice == '17':
+    elif choice == '16':
         extract_questions(messages)
-    elif choice == '18':
+    elif choice == '17':
         reply_ratio(messages)
-    elif choice == '19':
+    elif choice == '18':
         check_deleted_messages(messages)
     elif choice == '0':
         print("Exiting. Goodbye!")
@@ -238,13 +238,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 1
 # Total messages: 6
@@ -261,13 +261,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 2
 # Unique users in the chat: {'Bob', 'Charlie', 'Alice'}
@@ -284,13 +284,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 3
 # Total words in the chat: 22
@@ -307,13 +307,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 4
 # Average words per message: 3.67
@@ -330,13 +330,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 5
 # Longest message: "Charlie: Let's plan something fun this weekend."
@@ -353,13 +353,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 6
 # Most active user: Alice (2 messages)
@@ -376,13 +376,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 7
 # Input: charlie 
@@ -400,13 +400,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 8
 # Input: alice 
@@ -424,13 +424,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 9
 # Input: bob
@@ -448,13 +448,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 10
 # Input: alice
@@ -472,13 +472,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 11
 # Common repeated words: {'you', 'morning', 'alice'}
@@ -495,13 +495,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 12
 # Invalid option. Try again.
@@ -518,13 +518,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 13
 # User with longest average message: Alice (avg 4.5 words)
@@ -541,13 +541,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15 Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 14
 # Input: bob
@@ -565,13 +565,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 15
 # Unique messages count: 6
@@ -594,13 +594,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 15
 # Unique messages count: 6
@@ -623,13 +623,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 16
 # Messages sorted A-Z:
@@ -652,13 +652,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 17
 # Questions in chat:
@@ -675,13 +675,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 18
 # Enter first user: alice
@@ -700,13 +700,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 19
 # Deleted messages found: 0
@@ -723,13 +723,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 19
 # Deleted messages found: 0
@@ -746,14 +746,13 @@ while True:
 # 9. First and last message by user
 # 10. Check user presence
 # 11. Common repeated words
-# 13. User with longest average message
-# 14. Count messages mentioning user
-# 15. Remove duplicate messages
-# 16. Sort messages A-Z
-# 17. Extract all questions
-# 18. Reply ratio between two users
-# 19. Check for deleted messages
+# 12. User with longest average message
+# 13. Count messages mentioning user
+# 14. Remove duplicate messages
+# 15. Sort messages A-Z
+# 16. Extract all questions
+# 17. Reply ratio between two users
+# 18. Check for deleted messages
 # 0. Exit
 # Enter your choice: 0
 # Exiting. Goodbye!
-
